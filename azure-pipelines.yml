@@ -17,6 +17,9 @@ steps:
       **
       !**/.git/**
       !**/.gitignore
+      !**/.gitattributes
+      !**/.github/**
+      !**/azure-pipelines.yml
     TargetFolder: '$(build.artifactstagingdirectory)/yourls'
     CleanTargetFolder: true
     OverWrite: true
